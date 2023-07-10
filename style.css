@@ -1,0 +1,13 @@
+/* ..header...... */
+*{margin: 0px;}
+.head-section{
+    background-color: #E554731A;
+    height: 850px;
+    width: 1920px;
+}
+.head-title{
+    font-size: 80px;
+    font-weight: 800px;
+}
+/*  ....main..... */
+/* ....footer...... */
