@@ -1,13 +1,104 @@
 /* ..header...... */
-*{margin: 0px;}
-.head-section{
+* {
+    margin: 0px;
+}
+
+.head-section {
     background-color: #E554731A;
     height: 850px;
-    width: 1920px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
 }
-.head-title{
+.head-banner{
+   
+   padding:200px 100px 0px 300px;
+}
+.head-title {
     font-size: 80px;
     font-weight: 800px;
 }
+
+.head-details {
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(39, 39, 39, 0.60);
+    width: 600px;
+    margin: 30px 30px 30px 0px;
+}
+
+.primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 30px;
+    color: white;
+}
+
+.img{
+    
+   padding-top: 50px;
+}
+
+
 /*  ....main..... */
+.bonus{
+    justify-content: center;
+
+height: 200px;
+}
+.content{
+    margin: 70px 0px;
+    
+}
+.content-head{
+    font-size: 40px;
+    font-weight: 800px;
+ text-align: center;
+}
+.primary-2{
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+    padding:10px 500px 0px 500px;
+}
+.bonus-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    height: 700px;
+    background-color: chartreuse;
+}
+
+    
+
+#logo-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-top: 150px;
+   
+}
+
+    
+#logo-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15); 
+    padding-top: 90px;
+    margin: 0px 20px 0px 20px;
+}
+
+#logo-3{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+    padding-top: 48px;
+}
+/* ...section-1 */
+.section-1{
+    display: flex;
+    background-color: #E554731A;
+    margin-top: 1900px;
+    justify-content: space-between;
+}
+.section-1-info{
+    background-color: #E55473;
+}
 /* ....footer...... */
