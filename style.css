@@ -10,10 +10,12 @@
     justify-content: space-between;
     display: flex;
 }
-.head-banner{
-   
-   padding:200px 100px 0px 300px;
+
+.head-banner {
+
+    padding: 200px 100px 0px 300px;
 }
+
 .head-title {
     font-size: 80px;
     font-weight: 800px;
@@ -34,71 +36,229 @@
     color: white;
 }
 
-.img{
-    
-   padding-top: 50px;
+.img {
+
+    padding-top: 50px;
 }
 
 
 /*  ....main..... */
-.bonus{
+.bonus {
     justify-content: center;
 
-height: 200px;
+    height: 200px;
 }
-.content{
+
+.content {
     margin: 70px 0px;
-    
+
 }
-.content-head{
+
+.content-head {
     font-size: 40px;
     font-weight: 800px;
- text-align: center;
+    text-align: center;
 }
-.primary-2{
+
+.primary-2 {
     font-size: 18px;
     font-weight: 400px;
     text-align: center;
-    padding:10px 500px 0px 500px;
+    padding: 10px 500px 0px 500px;
 }
-.bonus-img{
+
+.bonus-img {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     height: 700px;
-    background-color: chartreuse;
+
 }
 
-    
+.img-name {
+    text-align: center;
 
-#logo-1{
+}
+
+.tree {
+
+    padding-top: 30px;
+}
+
+#logo-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding-top: 150px;
-   
-}
-
-    
-#logo-2{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15); 
-    padding-top: 90px;
     margin: 0px 20px 0px 20px;
 }
 
-#logo-3{
+
+#logo-1 {
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 90px;
+    
+
+    /* width: 400px; */
+    /* margin: 0px 20px 0px 20px; */
+}
+
+#logo-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
     padding-top: 48px;
 }
+
 /* ...section-1 */
-.section-1{
+.section-1 {
     display: flex;
     background-color: #E554731A;
-    margin-top: 1900px;
+    margin-top: 900px;
+    height: 700px;
+    width: 100%;
     justify-content: space-between;
 }
-.section-1-info{
-    background-color: #E55473;
+
+.section-1-info {
+    
+    width: 900px;
+    
+    padding: 380px 0px 400px 00px;
+}
+span{
+    color: #E55473;
+}
+.section-1-head{
+   
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 280px;
+}
+.section-1-details{
+    
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+    padding: 10px 00px 0px 300px;
+}
+.sing-up{
+   
+    padding: 50px 400px 50px 550px;
+}
+.primary-button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 20px;
+    color: white;
+    height: 60px;
+    width: 150px;
+}
+.section-1-img{
+    
+    
+    padding: 200px 900px 200px 0px;
+}
+#flower-bundle{
+    height: 500px;
+    width: 600px;
+}
+.back{
+    background-color: #E554731A;
+    height: 100px; ;
+}
+/* ......section-2...... */
+
+.section-2-img{
+display: flex;
+justify-content: center;
+}
+    
+.section-2-info{
+   
+   text-align: center;
+   height: 200px;
+   padding: 200px 200px 0px 200px;
+   
+}
+.section-2-details{
+   
+    padding: 0px 400px;
+    margin-top: 20px;
+}
+
+    
+
+.section-2-img{
+   
+    padding: 0px 90px;
+}
+.photo{
+    margin:  0px 20px;
+    width: 342px;
+height: 396px;
+}
+/*  .......section-3.... */
+.section-3{
+    
+    height: 700px;
+    justify-content: center;
+}
+.section-3-head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+   padding-bottom: 10px;
+}
+.section-3-img{
+    background-image: url(Flower-Asset/Rectangle\ 9.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 350px;
+    align-items: center;
+}
+
+.section-3-title{
+   padding-bottom: 40px;
+    text-align: center;
+}
+
+.text{
+    width: 700px;
+height: 55px;
+border-radius: 5px;
+margin-right: 10px;
+font-size: 20px;
+}
+.contact{
+    display:flex;
+ justify-content: center;  
+    
 }
 /* ....footer...... */
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+height: 449px;
+}
+.foot-head{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 120px;
+}
+.foot-details{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 550px ;
+}
+.foot-title{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    padding-top: 40px;
+}
