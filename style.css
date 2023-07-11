@@ -34,6 +34,7 @@
     background: #E55473;
     padding: 20px 30px;
     color: white;
+    border: none;
 }
 
 .img {
@@ -155,6 +156,7 @@ span{
     color: white;
     height: 60px;
     width: 150px;
+    border: none;
 }
 .section-1-img{
     
@@ -230,6 +232,7 @@ height: 55px;
 border-radius: 5px;
 margin-right: 10px;
 font-size: 20px;
+border: none;
 }
 .contact{
     display:flex;
@@ -254,7 +257,7 @@ height: 449px;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    padding: 20px 550px ;
+    padding: 35px 550px 10px 550px;
 }
 .foot-title{
     font-size: 18px;
